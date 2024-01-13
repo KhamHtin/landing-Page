@@ -1,0 +1,50 @@
+.navbar h1{
+    color:red;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:white;
+    background-color: black;
+}
+
+.Container{
+    width: 100%;
+    
+}
+
+.row{padding: 0px 80px;}
+
+.navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    /* background-color: yellow; */
+    margin-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+ 
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
